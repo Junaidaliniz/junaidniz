@@ -275,7 +275,7 @@ def build_group_message(otp, counter):
     otp_code = extract_otp(otp["message"])
     svc_icon = get_service_icon(otp["sender"])
 
-    text = f"{counter} {country['flag']} <b>New {country['name']} {otp['sender']} OTP!</b>\n\n"
+    text = f"{country['flag']} <b>New {country['name']} {otp['sender']} OTP!</b>\n\n"
     text += f"<blockquote>\U0001f570 Time: {otp['timestamp']}</blockquote>\n"
     text += f"<blockquote>{country['flag']} Country: {country['name']}</blockquote>\n"
     text += f"<blockquote>{svc_icon} Service: {otp['sender']}</blockquote>\n"
@@ -284,7 +284,7 @@ def build_group_message(otp, counter):
         text += f"<blockquote>\U0001f511 OTP: {otp_code}</blockquote>\n"
     text += f"\n<blockquote>\U0001f4e9 Full Message:</blockquote>\n"
     text += f"<pre>{otp['message']}</pre>\n\n"
-    text += f"<b>Powered By Queen o</b> \U0001f497"
+    text += f"<b>Powered By Junaid Niz</b> 💗"
     return text
 
 
@@ -317,12 +317,12 @@ def build_user_message(otp, phone, country_name, flag):
 
 GROUP_KEYBOARD = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("\U0001f3db Number", url="https://t.me/LegendNumber91"),
-        InlineKeyboardButton("\U0001f47e DEVELOPER", url="https://t.me/Junaidniz786"),
+        InlineKeyboardButton("📱 Channel", url="https://t.me/jndtech1"),
+        InlineKeyboardButton("☎️ Number", url="https://t.me/+c4VCxBCT3-QzZGFk"),
     ],
     [
-        InlineKeyboardButton("\U0001f4cb Channel", url="https://t.me/LegendTech92"),
-        InlineKeyboardButton("\U0001f7e2 Whatsapp", url="https://whatsapp.com/channel/0029VbBbtd08V0tmjQXac13X"),
+        InlineKeyboardButton("💻 DEVELOPER", url="https://t.me/Junaidniz786"),
+        InlineKeyboardButton("\U0001f7e2 Whatsapp", url="https://whatsapp.com/channel/0029Vaf1X3f6hENsP7dKm81z"),
     ],
 ])
 
