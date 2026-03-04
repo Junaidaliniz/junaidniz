@@ -11,7 +11,7 @@ from telegram.constants import ParseMode
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8433897615:AAFGshJ6sD9R_31niIvObq_hExAVXrFmr6A"
+BOT_TOKEN = "8277332133:AAFFQwc7LY4NwZx535QhHmYf-6-KsMdwg0I"
 ADMIN_ID = 7011937754
 ADMINS = [7011937754]
 DEFAULT_SMS_API = "https://api-node-js-new-production-b09a.up.railway.app/a=sms"
@@ -284,7 +284,7 @@ def build_group_message(otp, counter):
         text += f"<blockquote>\U0001f511 OTP: {otp_code}</blockquote>\n"
     text += f"\n<blockquote>\U0001f4e9 Full Message:</blockquote>\n"
     text += f"<pre>{otp['message']}</pre>\n\n"
-    text += f"<b>Powered By Junaid Niz</b> 💗"
+    text += f"<b>Powered By ANAS ALAM</b> 💗"
     return text
 
 
@@ -317,12 +317,12 @@ def build_user_message(otp, phone, country_name, flag):
 
 GROUP_KEYBOARD = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("📱 Channel", url="https://t.me/jndtech1"),
-        InlineKeyboardButton("☎️ Number", url="https://t.me/+c4VCxBCT3-QzZGFk"),
+        InlineKeyboardButton("📱 Channel", url="https://t.me/OTPANASVIP"),
+        InlineKeyboardButton("☎️ Number", url="https://t.me/OTPANASVIP"),
     ],
     [
         InlineKeyboardButton("💻 DEVELOPER", url="https://t.me/Junaidniz786"),
-        InlineKeyboardButton("\U0001f7e2 Whatsapp", url="https://whatsapp.com/channel/0029Vaf1X3f6hENsP7dKm81z"),
+        InlineKeyboardButton("🗝️ OTP", url="https://t.me/OTPANASVIP"),
     ],
 ])
 
