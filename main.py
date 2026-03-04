@@ -452,7 +452,6 @@ def build_force_join_message(not_joined):
     text += "You must join the following channels to use this bot:\n\n"
     buttons = []
     for ch in not_joined:
-        text += f"\u2022 <b>{ch['title']}</b>\n"
         username = ch["channel_username"].replace("@", "")
         buttons.append([InlineKeyboardButton(f"\U0001f4e2 Join {ch['title']}", url=f"https://t.me/{username}")])
     text += "\nAfter joining, tap the button below:"
