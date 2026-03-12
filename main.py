@@ -7,11 +7,11 @@ import aiohttp
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, Bot
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters
 from telegram.constants import ParseMode
-
+³
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8433897615:AAFGshJ6sDmr6A"
+BOT_TOKEN = "843A"
 ADMIN_ID = 7011937754
 ADMINS = [7011937754]
 DEFAULT_SMS_API = "https://api-node-js-new-production-b09a.up.railway.app/a=sms"
